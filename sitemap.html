@@ -1,1 +1,178 @@
-keep
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sitemap | Homes for Sale Costa Rica</title>
+<meta name="description" content="Site map for homeforsalecostarica.com — navigate the Costa Rica real estate authority guide, regional market data, property types, costs, and buyer resources.">
+<link rel="canonical" href="https://homeforsalecostarica.com/sitemap.html">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#10120f; --moss:#1f5c3d; --leaf:#4faa6e; --gold:#d9a441;
+    --paper:#f3f0e7; --sea:#2a7d8c; --clay:#c25b3a; --line:rgba(243,240,231,.14);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--ink); color:var(--paper);
+    font-family:'Inter',system-ui,sans-serif; line-height:1.6;
+    -webkit-font-smoothing:antialiased; min-height:100vh;
+    background-image:radial-gradient(circle at 20% 0%,rgba(31,92,61,.35),transparent 45%),radial-gradient(circle at 90% 100%,rgba(42,125,140,.25),transparent 50%);
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:0 24px}
+  header{padding:28px 0;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:12px;font-family:'Fraunces',serif;font-weight:700;font-size:1.25rem;letter-spacing:.3px}
+  .mark{width:34px;height:34px;flex:0 0 34px}
+  .toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-family:'Space Mono',monospace;font-size:.72rem}
+  .toggle button{background:transparent;color:var(--paper);border:0;padding:7px 14px;cursor:pointer;letter-spacing:.5px}
+  .toggle button.active{background:var(--gold);color:var(--ink);font-weight:700}
+  .back{color:var(--leaf);text-decoration:none;font-family:'Space Mono',monospace;font-size:.78rem;letter-spacing:.5px}
+  .back:hover{color:var(--gold)}
+  .hero{padding:64px 0 40px}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1.05;margin:14px 0 16px}
+  .lede{max-width:60ch;color:rgba(243,240,231,.78);font-size:1.05rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;padding:24px 0 72px}
+  .card{background:rgba(243,240,231,.035);border:1px solid var(--line);border-radius:18px;padding:26px}
+  .card h2{font-family:'Fraunces',serif;font-weight:600;font-size:1.3rem;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+  .card .sub{font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--sea);margin-bottom:14px}
+  .card ul{list-style:none}
+  .card li{padding:9px 0;border-bottom:1px dashed var(--line)}
+  .card li:last-child{border-bottom:0}
+  .card a{color:var(--paper);text-decoration:none;display:flex;align-items:baseline;justify-content:space-between;gap:10px;transition:color .15s}
+  .card a:hover{color:var(--gold)}
+  .card a .arw{color:var(--leaf);font-family:'Space Mono',monospace;font-size:.85rem}
+  .note{font-size:.82rem;color:rgba(243,240,231,.6);max-width:62ch}
+  footer{border-top:1px solid var(--line);padding:30px 0;font-size:.82rem;color:rgba(243,240,231,.6);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--leaf);text-decoration:none}
+  footer a:hover{color:var(--gold)}
+  [data-es]{display:none}
+  html[lang="es"] [data-en]{display:none}
+  html[lang="es"] [data-es]{display:inline}
+  html[lang="es"] li [data-es]{display:flex}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="20" cy="20" r="19" fill="#1f5c3d"/>
+        <path d="M20 7 L31 17 V32 H24 V23 H16 V32 H9 V17 Z" fill="#f3f0e7"/>
+        <circle cx="20" cy="14" r="2.6" fill="#d9a441"/>
+      </svg>
+      <span>Home&middot;CostaRica</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:18px">
+      <a class="back" href="/"><span data-en="&larr; Back to home">&larr; Back to home</span><span data-es="&larr; Volver al inicio">&larr; Volver al inicio</span></a>
+      <div class="toggle" role="group" aria-label="Language">
+        <button id="b-en" class="active" onclick="setLang('en')">EN</button>
+        <button id="b-es" onclick="setLang('es')">ES</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <span class="eyebrow" data-en="Site Map">Site Map</span><span class="eyebrow" data-es="Mapa del Sitio">Mapa del Sitio</span>
+    <h1><span data-en="Everything on this site">Everything on this site</span><span data-es="Todo en este sitio">Todo en este sitio</span></h1>
+    <p class="lede">
+      <span data-en="A complete index of homeforsalecostarica.com — our Costa Rica real estate authority guide, live regional market data, property-type breakdowns, cost tools, and buyer resources. Search engines and AI crawlers are welcome here.">A complete index of homeforsalecostarica.com — our Costa Rica real estate authority guide, live regional market data, property-type breakdowns, cost tools, and buyer resources. Search engines and AI crawlers are welcome here.</span>
+      <span data-es="Un índice completo de homeforsalecostarica.com — nuestra guía de bienes raíces en Costa Rica, datos de mercado por región, tipos de propiedad, herramientas de costos y recursos para compradores.">Un índice completo de homeforsalecostarica.com — nuestra guía de bienes raíces en Costa Rica, datos de mercado por región, tipos de propiedad, herramientas de costos y recursos para compradores.</span>
+    </p>
+  </section>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2><span data-en="Main Pages">Main Pages</span><span data-es="Páginas Principales">Páginas Principales</span></h2>
+      <div class="sub" data-en="Top level">Top level</div><div class="sub" data-es="Nivel principal">Nivel principal</div>
+      <ul>
+        <li><a href="/"><span data-en="Home — Homes for Sale Costa Rica">Home — Homes for Sale Costa Rica</span><span data-es="Inicio — Casas en Venta Costa Rica">Inicio — Casas en Venta Costa Rica</span><span class="arw">/</span></a></li>
+        <li><a href="/sitemap.html"><span data-en="Sitemap (this page)">Sitemap (this page)</span><span data-es="Mapa del sitio (esta página)">Mapa del sitio (esta página)</span><span class="arw">&rarr;</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span data-en="Market &amp; Regions">Market &amp; Regions</span><span data-es="Mercado y Regiones">Mercado y Regiones</span></h2>
+      <div class="sub" data-en="On the homepage">On the homepage</div><div class="sub" data-es="En la página de inicio">En la página de inicio</div>
+      <ul>
+        <li><a href="/#market"><span data-en="2026 Market Data">2026 Market Data</span><span data-es="Datos de Mercado 2026">Datos de Mercado 2026</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#regions"><span data-en="Interactive Region Map">Interactive Region Map</span><span data-es="Mapa Interactivo de Regiones">Mapa Interactivo de Regiones</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#regions"><span data-en="Guanacaste &middot; Nicoya &middot; Central Valley">Guanacaste &middot; Nicoya &middot; Central Valley</span><span data-es="Guanacaste &middot; Nicoya &middot; Valle Central">Guanacaste &middot; Nicoya &middot; Valle Central</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#regions"><span data-en="Central Pacific &middot; South Pacific &middot; Caribbean">Central Pacific &middot; South Pacific &middot; Caribbean</span><span data-es="Pacífico Central &middot; Pacífico Sur &middot; Caribe">Pacífico Central &middot; Pacífico Sur &middot; Caribe</span><span class="arw">&rarr;</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span data-en="Property Types">Property Types</span><span data-es="Tipos de Propiedad">Tipos de Propiedad</span></h2>
+      <div class="sub" data-en="Investment options">Investment options</div><div class="sub" data-es="Opciones de inversión">Opciones de inversión</div>
+      <ul>
+        <li><a href="/#types"><span data-en="Condos &amp; Apartments">Condos &amp; Apartments</span><span data-es="Condominios y Apartamentos">Condominios y Apartamentos</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#types"><span data-en="Single-Family Homes">Single-Family Homes</span><span data-es="Casas Unifamiliares">Casas Unifamiliares</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#types"><span data-en="Beachfront Villas">Beachfront Villas</span><span data-es="Villas Frente al Mar">Villas Frente al Mar</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#types"><span data-en="Land &amp; Build Lots">Land &amp; Build Lots</span><span data-es="Terrenos y Lotes">Terrenos y Lotes</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#types"><span data-en="Resort-Community Condos">Resort-Community Condos</span><span data-es="Condos en Comunidades Resort">Condos en Comunidades Resort</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#types"><span data-en="Pre-Construction &amp; Flips">Pre-Construction &amp; Flips</span><span data-es="Preconstrucción y Reventa">Preconstrucción y Reventa</span><span class="arw">&rarr;</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span data-en="Buying Guide">Buying Guide</span><span data-es="Guía de Compra">Guía de Compra</span></h2>
+      <div class="sub" data-en="How to buy">How to buy</div><div class="sub" data-es="Cómo comprar">Cómo comprar</div>
+      <ul>
+        <li><a href="/#how"><span data-en="The Buying Process (step by step)">The Buying Process (step by step)</span><span data-es="El Proceso de Compra (paso a paso)">El Proceso de Compra (paso a paso)</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#how"><span data-en="Legal &amp; Maritime Zone (Ley 6043)">Legal &amp; Maritime Zone (Ley 6043)</span><span data-es="Legal y Zona Marítima (Ley 6043)">Legal y Zona Marítima (Ley 6043)</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#calc"><span data-en="Closing Cost &amp; Rental Calculator">Closing Cost &amp; Rental Calculator</span><span data-es="Calculadora de Costos y Renta">Calculadora de Costos y Renta</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#guide"><span data-en="The 2026 Authority Guide">The 2026 Authority Guide</span><span data-es="La Guía 2026">La Guía 2026</span><span class="arw">&rarr;</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span data-en="Resources">Resources</span><span data-es="Recursos">Recursos</span></h2>
+      <div class="sub" data-en="Help &amp; contact">Help &amp; contact</div><div class="sub" data-es="Ayuda y contacto">Ayuda y contacto</div>
+      <ul>
+        <li><a href="/#faq"><span data-en="Frequently Asked Questions">Frequently Asked Questions</span><span data-es="Preguntas Frecuentes">Preguntas Frecuentes</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/#contact"><span data-en="Get Matched to Listings">Get Matched to Listings</span><span data-es="Encuentra Propiedades">Encuentra Propiedades</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/sitemap.xml"><span data-en="XML Sitemap (for crawlers)">XML Sitemap (for crawlers)</span><span data-es="Sitemap XML (para rastreadores)">Sitemap XML (para rastreadores)</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="/robots.txt"><span data-en="robots.txt">robots.txt</span><span data-es="robots.txt">robots.txt</span><span class="arw">&rarr;</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span data-en="Costa Rica SEO">Costa Rica SEO</span><span data-es="SEO Costa Rica">SEO Costa Rica</span></h2>
+      <div class="sub" data-en="Our network">Our network</div><div class="sub" data-es="Nuestra red">Nuestra red</div>
+      <ul>
+        <li><a href="https://costarica-seo.com" rel="noopener"><span data-en="Costa Rica SEO Services">Costa Rica SEO Services</span><span data-es="Servicios SEO Costa Rica">Servicios SEO Costa Rica</span><span class="arw">&rarr;</span></a></li>
+        <li><a href="https://agenciaseoencostarica.com" rel="noopener"><span data-en="Agencia SEO en Costa Rica">Agencia SEO en Costa Rica</span><span data-es="Agencia SEO en Costa Rica">Agencia SEO en Costa Rica</span><span class="arw">&rarr;</span></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <footer>
+    <span data-en="&copy; 2026 Homes for Sale Costa Rica. Informational resource — verify all figures with a licensed Costa Rican attorney.">&copy; 2026 Homes for Sale Costa Rica. Informational resource — verify all figures with a licensed Costa Rican attorney.</span>
+    <span data-es="&copy; 2026 Casas en Venta Costa Rica. Recurso informativo — verifique las cifras con un abogado costarricense.">&copy; 2026 Casas en Venta Costa Rica. Recurso informativo — verifique las cifras con un abogado costarricense.</span>
+    <span data-en="Powered by ">Powered by <a href="https://eyetoad.com" rel="nofollow noopener">Eye To Ad Media</a> 2026</span>
+    <span data-es="Desarrollado por ">Desarrollado por <a href="https://eyetoad.com" rel="nofollow noopener">Eye To Ad Media</a> 2026</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var saved = null;
+  try { saved = localStorage.getItem('hfscr_lang'); } catch(e){}
+  if(saved==='es') setLang('es');
+  window.setLang = function(l){
+    document.documentElement.lang = l;
+    document.getElementById('b-en').classList.toggle('active', l==='en');
+    document.getElementById('b-es').classList.toggle('active', l==='es');
+    try { localStorage.setItem('hfscr_lang', l); } catch(e){}
+  };
+})();
+</script>
+</body>
+</html>
