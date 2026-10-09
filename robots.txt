@@ -1,1 +1,4 @@
-keep
+User-agent: *
+Allow: /
+
+Sitemap: https://homeforsalecostarica.com/sitemap.xml
